@@ -38,11 +38,7 @@
 <!-- End search section -->
 
 <section class="tableSection">
-  <mat-table
-    class="matTable"
-    [dataSource]="dataSource"
-    style="text-align: center;"
-  >
+  <mat-table [dataSource]="dataSource" style="text-align: center;">
     <ng-container matColumnDef="select">
       <mat-header-cell *matHeaderCellDef> Select </mat-header-cell>
       <mat-cell *matCellDef="let row">
